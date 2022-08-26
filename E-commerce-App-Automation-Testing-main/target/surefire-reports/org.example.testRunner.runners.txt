@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: org.example.testRunner.runners
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 170.788 s <<< FAILURE! - in org.example.testRunner.runners
+org.example.testRunner.runners.runScenario["first slider is clickable on home page", "Optional[F06_HomeSlider  |  user could make home slider]"](7)  Time elapsed: 9.139 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:829)
+	at org.example.pages.HomeSlider.ass1(HomeSlider.java:26)
+	at org.example.stepDefs.D06_sliderStepDef.assertslider(D06_sliderStepDef.java:22)
+	at ✽.make assert onn url for expected and actual(file:///C:/Users/LAPTOP/Downloads/E-commerce-App-Automation-Testing-main/src/main/resources/features/F06_HomeSlider.feature:8)
+
+org.example.testRunner.runners.runScenario["second slider is clickable on home page", "Optional[F06_HomeSlider  |  user could make home slider]"](8)  Time elapsed: 9.127 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:829)
+	at org.example.pages.HomeSlider.ass2(HomeSlider.java:45)
+	at org.example.stepDefs.D06_sliderStepDef.assertslider2(D06_sliderStepDef.java:34)
+	at ✽.make assert on url for expected and actual(file:///C:/Users/LAPTOP/Downloads/E-commerce-App-Automation-Testing-main/src/main/resources/features/F06_HomeSlider.feature:16)
+
+org.example.testRunner.runners.runScenario["user opens rss link", "Optional[F07_FollowUs  |  user could followUs]"](11)  Time elapsed: 12.522 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at org.example.pages.FollowUs.assertRss(FollowUs.java:75)
+	at org.example.stepDefs.D07_followusStepDef.LinkRss(D07_followusStepDef.java:59)
+	at ✽.link is opened in new tab for rss(file:///C:/Users/LAPTOP/Downloads/E-commerce-App-Automation-Testing-main/src/main/resources/features/F07_FollowUs.feature:16)
+

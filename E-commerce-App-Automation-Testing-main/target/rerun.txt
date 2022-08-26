@@ -1,0 +1,5 @@
+file:src/main/resources/features/F06_HomeSlider.feature:5:13
+file:src/main/resources/features/F07_FollowUs.feature:14
+file:src/main/resources/features/F04_Search.feature:4
+file:src/main/resources/features/F02_Login.feature:5
+file:src/main/resources/features/F01_Register.feature:5
